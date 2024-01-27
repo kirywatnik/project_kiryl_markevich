@@ -1,0 +1,92 @@
+
+.block__mobile {
+        position: absolute;
+        opacity: 0;
+        z-index: -4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+.block__basic {
+    padding: 23px 28px 44px 32px;
+    border-radius: 15px;
+    background: #FFF;
+    width: 312px;
+}
+.basic {
+}
+.basic__title {
+    color: #282828;
+    font-size: 26px;
+    line-height: 120%; /* 31.2px */
+    letter-spacing: -0.712px;
+    margin-bottom: 17px;
+}
+.basic__price {
+    padding: 0px 0px 28px 10px;
+    color: var(--State-Bold, #272E35);
+    font-size: 45.543px;
+    line-height: 51.236px; /* 112.5% */
+    border-bottom: 1px solid  #C2C2C2;
+    margin-bottom: 24px;
+    position: relative;
+}
+.basic__price::before {
+    content: "$";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--State-Bold, #272E35);
+    font-size: 17.079px;
+    line-height: 22.771px; /* 133.333% */
+}
+.basic__price span {
+    color: var(--State-Light, #6E757C);
+    font-family: Inter;
+    font-size: 11.386px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.079px; /* 150% */
+}
+.basic__text {
+    color: var(--State-Light, #6E757C);
+    font-family: Inter;
+    font-size: 11.386px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 17.079px; /* 150% */
+}
+.basic__button {
+    padding: 12px 19px;
+    border-radius: 8.832px;
+    background: #6C5FBC;
+    color: #F9F9F9;
+    font-size: 11.578px;
+    font-weight: 500;
+    letter-spacing: 0.347px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+.basic__features {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.basic__feature {
+    padding-left: 40px;
+    position: relative;
+    color: #606060;
+    font-size: 11.89px;
+    font-weight: 500;
+    line-height: 17.295px; /* 145.455% */
+}
+.basic__feature::before {
+    content: "";
+    position: absolute;
+    width: 18.916px;
+    height: 18.916px;
+    left: 0px;
+    top: 0;
+    background-image: url(./img/Tick.svg);
+}

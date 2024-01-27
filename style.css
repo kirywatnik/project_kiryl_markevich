@@ -1,0 +1,48 @@
+@import url(./styles/zero.css);
+@import url(./footer/style-footer.css);
+@import url(./header/style-header.css);
+@import url(./main-block/main-block.css);
+@import url(./statistic/statistic.css);
+@import url(./restaurantes/restaurantes.css);
+@import url(./dishes/dishes.css);
+@import url(./purchases/purchases.css);
+@import url(./customers/customers.css);
+@import url(./styles/media.css);
+@import url(./app/app.css);
+@import url(./pages/pricing/pricing.css);
+@import url(./pages/pricing/media.css);
+@import url(./pages/pricing/mbile.css);
+@import url(./pages/support/support.css);
+@import url(./pages/modal/modal.css);
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--base-white, #FFF);
+    background: #F9F9F9;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden ;
+}
+.page {
+    padding: 140px 0px 0px 0px;
+    flex: 1 1 auto;
+}
+.page__main-block{
+    padding: 119px 10px 130px 10px;
+}
+.page__statistic {
+    padding: 57px 10px 54.7px 10px;
+}
+.page__customers {
+    padding: 116px 10px 216px 10px;
+}
