@@ -1,17 +1,17 @@
 {
   "dependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "sass": "^1.70.0"
   },
-  "name": "project_kiryl_markevich",
-  "version": "0.0.1",
+  "name": "project__kiryl-markevich",
   "source": "./index.html",
-  "description": "site about food",
-  "git repository": "https://github.com/kirywatnik/project_kiryl_markevich.git",
-  "devDependencies": {},
+  "version": "0.0.2",
+  "description": "food",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel",
-    "build": "parcel build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build"
   },
   "author": "kiryl markevich",
   "license": "ISC"

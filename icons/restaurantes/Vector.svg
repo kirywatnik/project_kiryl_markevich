@@ -1,0 +1,35 @@
+<svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="11" height="19" fill="#1E1E1E"/>
+<g id="DESKTOP">
+<g id="Home V-1" clip-path="url(#clip0_0_1)">
+<rect id="Rectangle 3836" x="-1321" y="-2532" width="1440" height="5838" fill="#F9F9F9"/>
+<g id="Our Top Restaurants">
+<g id="View All">
+<path id="Vector" d="M-6 9.90234H9.80412" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M1.90234 2L9.80441 9.90206L1.90234 17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Resturent 3">
+<g id="BG" filter="url(#filter0_d_0_1)">
+<rect x="-372.045" y="-375.301" width="395.993" height="297.602" rx="30.0228" fill="white"/>
+<rect x="-372.045" y="-375.301" width="395.993" height="297.602" rx="30.0228" stroke="#F4F4F6" stroke-width="1.25095" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-402.398" y="-375.926" width="468.591" height="405.874" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="5.94564" dy="71.3477"/>
+<feGaussianBlur stdDeviation="17.8369"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0.898039 0 0 0 0 0.898039 0 0 0 0.7 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="5838" fill="white" transform="translate(-1321 -2532)"/>
+</clipPath>
+</defs>
+</svg>
