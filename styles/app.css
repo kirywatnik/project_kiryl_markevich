@@ -100,7 +100,7 @@
     right: 500px;
     width: 100px;
     height: 104.5px;
-    background-image: url(../icons/app/Vector\ 14.svg);
+    background: url(../icons/app/Vector\ 14.svg) no-repeat;
     transform: rotate(40deg);
     
 }
